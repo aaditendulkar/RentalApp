@@ -54,8 +54,8 @@ export default function Contact() {
         <section className="pt-32 pb-16 px-8 bg-gradient-to-b from-[#D2B48C] to-[#F5F1E9]">
           <div className="container mx-auto max-w-4xl text-center">
             <h1 className="text-5xl font-bold text-[#3E2723] mb-6">
-              Get in <span className="text-[#A67C52] relative">
-                Touch
+               <span className="text-[#A67C52] relative">
+                Get In Touch
                 <span className="absolute -bottom-2 left-0 w-full h-1 bg-[#A67C52]" />
               </span>
             </h1>
