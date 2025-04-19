@@ -1,13 +1,12 @@
 // app/layout.tsx
 import './globals.css'; // if you're using global styles
-import type { Metadata } from 'next';
-
+import Layout from '@/components/common/Layout';
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <body>
-        {children}
+        <Layout>{children}</Layout>
       </body>
     </html>
   );
