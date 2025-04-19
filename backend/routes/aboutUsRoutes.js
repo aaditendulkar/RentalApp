@@ -1,9 +1,8 @@
 const express = require('express');
-const AboutUs = require('../models/AboutUs');
+const AboutUs = require('../models/AboutUsModel'); // RENAMED MODEL
 
 const router = express.Router();
 
-// Get About Us info
 router.get('/', async (req, res) => {
   try {
     const aboutUs = await AboutUs.findOne();
@@ -13,7 +12,6 @@ router.get('/', async (req, res) => {
   }
 });
 
-// Update About Us info
 router.put('/', async (req, res) => {
   try {
     const { title, description, teamMembers, companyInfo } = req.body;
