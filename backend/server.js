@@ -34,3 +34,6 @@ connectDB();
 app.listen(PORT, () => {
   console.log(`🚀 Server running on port ${PORT}`);
 });
+const paymentRoutes = require('./routes/paymentRoutes');
+
+app.use('/api/payments', paymentRoutes);
