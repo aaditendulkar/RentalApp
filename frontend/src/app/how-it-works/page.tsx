@@ -327,7 +327,7 @@ export default function HowItWorks() {
               </Button>
             </Link> */}
             
-            <Link href="/browse" passHref>
+            <Link href="/browseitems" passHref>
               <Button variant="outline" className="text-base sm:text-lg font-medium h-10 sm:h-12 md:h-14 px-4 sm:px-6 md:px-8 bg-transparent border-white text-white hover:bg-white/10 transition-all w-full sm:w-auto">
                 Browse Items
               </Button>
