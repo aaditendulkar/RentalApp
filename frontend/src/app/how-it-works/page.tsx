@@ -313,19 +313,19 @@ export default function HowItWorks() {
         
         <div className="container mx-auto max-w-4xl text-center relative z-10">
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4 sm:mb-6">
-            Ready to start sharing?
+            Ready to start browsing?
           </h2>
           
           <p className="text-base sm:text-lg md:text-xl text-white/90 mb-8 sm:mb-10 md:mb-12 max-w-2xl mx-auto px-2">
-            Join our community today and discover the benefits of borrowing and lending with neighbors.
+           Start browsing today and discover the benefits of borrowing and lending with neighbors.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center">
-            <Link href="/register" passHref>
+            {/* <Link href="/register" passHref>
               <Button variant="default" className="text-base sm:text-lg font-medium h-10 sm:h-12 md:h-14 px-4 sm:px-6 md:px-8 bg-white text-[#A67C52] hover:bg-white/90 hover:text-[#5D4037] shadow-lg hover:shadow-xl transition-all w-full sm:w-auto">
                 Create Account
               </Button>
-            </Link>
+            </Link> */}
             
             <Link href="/browse" passHref>
               <Button variant="outline" className="text-base sm:text-lg font-medium h-10 sm:h-12 md:h-14 px-4 sm:px-6 md:px-8 bg-transparent border-white text-white hover:bg-white/10 transition-all w-full sm:w-auto">
